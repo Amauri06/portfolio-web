@@ -1,0 +1,58 @@
+.section-dark{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.footer{
+    min-height: 500px;
+}
+
+.brand-footer{
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.footer-text{
+ font-size: 1.5rem;  
+ padding: 20px;
+ margin-bottom: 30px;
+}
+
+.icons-soctial-media a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+
+}
+
+.icons-soctial-media i{
+    color: rgba(255, 255, 255, 0.767);
+   
+    transition: ease-in;
+}
+
+
+.icons-soctial-media a:hover {
+    background-color: white;
+    transform: scale(1.2);
+    border: 2px solid rgb(13,110,253);
+
+}
+
+.icons-soctial-media a:hover i{
+ color: black;
+}
+
+.Copyright{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}

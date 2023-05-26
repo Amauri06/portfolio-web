@@ -1,0 +1,107 @@
+
+.proyects-recent{
+ padding: 40px;
+
+}
+
+
+.section-ligth{
+    color: black;
+    background-color: white;   
+}
+
+.section-title{
+    font-size: 2.rem;
+    padding: 15px 0;
+
+}
+
+.section-description{
+    font-size: 1.2rem;
+    color: #584e4e;
+    
+}
+
+/* Proyectos */
+
+
+
+.proyect-container{
+   
+    padding-top: 60px;
+    margin-bottom: 40px ;
+}
+
+.proyect{
+  
+    position: relative;
+
+}
+
+.proyect img{
+    
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.overlay{
+    position: absolute;
+    transition: all 0.2s ease; 
+    opacity: 0;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+
+.overlay p{
+   font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 0; 
+}
+
+.proyect:hover img{
+    opacity: 0.2;
+}
+.proyect:hover .overlay{
+    opacity: 1;
+
+}
+
+ .overlay .icon-container{
+    display: flex;
+
+} 
+
+.overlay i {
+   color: black;
+   font-size: 60px;
+   margin: 10px;
+
+}
+
+.btn-info{
+    font-size: 1.1rem;
+    margin: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 440px) {
+
+    .overlay p{
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+
+}
+

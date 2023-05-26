@@ -1,0 +1,56 @@
+
+
+.section-dark{
+    color: white;
+    background-color: #1b1b32;
+
+}
+
+.section-ligth{
+    color: black;
+    background-color: white;   
+}
+
+
+.about{
+    height: 500px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.about .contenedor{
+    max-width: 600px;
+    text-align: center;
+    
+
+}
+
+.section-title{
+    font-size: 2rem;
+    padding: 15px 0;
+
+}
+
+.section-text{
+     font-size: 1.1rem;   
+}
+
+
+
+/* Adaptable */
+
+/* con la propiedad img-fluid la imagen va a tomar el 100% del ancho porque tiene un max-width: 100%
+
+esto es para que la imagen no se estire y llene el 100% del ancho de la pantalla aunque el dispositivo
+sea muy grande  */
+
+
+@media screen and (min-width: 700px) {
+    .hero-lower{
+        max-width: 600px;
+        
+    }
+    
+}
+
